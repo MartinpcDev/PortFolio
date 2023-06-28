@@ -1,0 +1,68 @@
+.experiencia__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.experiencia__card:nth-child(2n + 1) {
+  flex-direction: row;
+}
+
+.experiencia__card:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.experiencia__card-botones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.experiencia__imagen {
+  max-width: 60rem;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px #000;
+  filter: brightness(45%) grayscale(1);
+  transition: filter 1000ms;
+  cursor: pointer;
+}
+
+.experiencia__imagen:hover {
+  filter: brightness(100%) grayscale(0);
+}
+
+.experiencia__boton {
+  border: 1px solid #2e518b;
+  padding: 0.8rem;
+  background-color: #181717;
+  color: var(--color-texto);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 400ms;
+}
+
+.experiencia__boton:hover {
+  background-color: transparent;
+  border: 1px solid #fefefe;
+}
+
+@media screen and (max-width: 1190px) {
+  .experiencia__card {
+    flex-direction: column;
+  }
+  .experiencia__card:nth-child(2n + 1) {
+    flex-direction: column;
+  }
+  .experiencia__card:nth-child(2n) {
+    flex-direction: column;
+  }
+}

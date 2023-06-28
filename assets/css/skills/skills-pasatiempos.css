@@ -1,0 +1,12 @@
+.skills__pasatiempos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}

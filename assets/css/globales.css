@@ -1,0 +1,33 @@
+:root {
+  --background-primary: #081b29;
+  --background-alterno: #0b2436;
+  --background-secondary: #00abf0;
+  --color-text: #ededed;
+  --poppins: "Poppins", sans-serif;
+  --warning-color: #df2525;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  color: var(--color-text);
+  font-family: var(--poppins);
+}
+
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
+}

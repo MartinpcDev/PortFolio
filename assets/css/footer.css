@@ -1,0 +1,12 @@
+.footer {
+  background-color: var(--background-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin-bottom: 0.2rem;
+  opacity: 0.7;
+}

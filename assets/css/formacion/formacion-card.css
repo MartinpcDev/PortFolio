@@ -1,0 +1,24 @@
+.formacion__card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  filter: brightness(70%) grayscale(1);
+  transition: filter 1000ms;
+  cursor: pointer;
+}
+
+.formacion__card:hover {
+  filter: brightness(100%) grayscale(0);
+}
+
+.formacion__card-contenido {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  word-wrap: break-word;
+}
+
+.formacion__subtitulo {
+  font-size: 1rem;
+}

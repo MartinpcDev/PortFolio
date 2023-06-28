@@ -1,0 +1,12 @@
+.cabecera__link {
+  text-decoration: none;
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.cabecera__link:hover {
+  color: var(--background-secondary);
+  transition: 0.5s;
+}

@@ -1,0 +1,9 @@
+.presentacion__item {
+  list-style: none;
+}
+
+@media screen and (max-width: 550px) {
+  .presentacion__item {
+    padding-bottom: 0.5rem;
+  }
+}
