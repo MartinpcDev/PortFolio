@@ -111,7 +111,7 @@ body {
 
 /* Presentacion */
 .presentacion {
-  height: 50vh;
+  height: auto;
   background-color: var(--background-primary);
   width: 100%;
   display: flex;
@@ -246,6 +246,8 @@ body {
 @media screen and (max-width: 1200px) {
   .sobre__contenido {
     flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -315,12 +317,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4rem;
+  gap: 1rem;
   align-items: center;
   width: 100%;
   height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .skills__programacion {
@@ -329,9 +331,9 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  padding-left: 10%;
-  padding-right: 10%;
+  gap: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .skills__titulo {
@@ -408,9 +410,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding: 1rem;
 }
 
 .experiencia__card:nth-child(2n + 1) {
@@ -437,6 +437,7 @@ body {
   filter: brightness(45%) grayscale(1);
   transition: filter 1000ms;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .experiencia__imagen:hover {
@@ -509,6 +510,7 @@ body {
   width: 100%;
   height: auto;
   box-shadow: 0px 0px 30px #000;
+  margin: 1rem;
 }
 
 .input-container {
